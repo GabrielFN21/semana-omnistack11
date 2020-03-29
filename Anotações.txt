@@ -1,0 +1,22 @@
+Node.js - motor do chrome que interpreta Javascript desacoplado do navegador.
+
+Back-end - aquilo que o usuario não ve, como regra de negocio, conexão com o banco de dados, webservices e entre outros serviços.
+
+restifull - seguir regras, padrões do rest.
+
+JSON - estrutura de dados que transmite dados do server para o client, ou seja, ele que permite a comunicação entre server e client.
+
+Abordagem tradicional - o servidor lidava com todo tipo de resposta para cliente(browser), inclusive o  HTML.
+
+SPA - Single-page Applications, nessa abordagem o servidor devolve como resposta apenas dados no formato JSON para preencher os elementos em tela.
+
+npx - executa um pacote externo sem a necessidade de instalar no pc.
+
+Query Params: Parâmetros nomeados enviados na rota após "?" (filtros, paginações).
+
+Route Params: Parâmetros utilizados para identificar recursos
+
+Request Body: Corpo da requisição, utilizado para criar ou alterar recursos.
+
+Migrations - historico de atualização do banco de dados utilizado para ter um controle das alterações.
+
